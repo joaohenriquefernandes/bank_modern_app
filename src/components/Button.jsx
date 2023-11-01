@@ -1,5 +1,8 @@
-export function Button() {
+
+export function Button({ styles }) {
   return (
-    <h1>Button</h1>
+    <button type="button" className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles}`}>
+      Get Started
+    </button>
   )
 }
